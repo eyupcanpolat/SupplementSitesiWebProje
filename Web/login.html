@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #15161D;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            width: 380px;
+            background: #FFF;
+            padding: 35px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+            border-top: 4px solid #D10024;
+            animation: fadeIn 0.6s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #2B2D42;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            font-size: 13px;
+            font-weight: 600;
+            color: #2B2D42;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            font-size: 14px;
+            border: 1px solid #E4E7ED;
+            border-radius: 5px;
+            outline: none;
+            transition: 0.2s all;
+        }
+
+        .input-group input:focus {
+            border-color: #D10024;
+            box-shadow: 0px 0px 4px rgba(209, 0, 36, 0.3);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            font-weight: 700;
+            background: #D10024;
+            color: #FFF;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+            transition: 0.2s all;
+        }
+
+        .login-btn:hover {
+            background: #b30c1d;
+        }
+
+        .extra-links {
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .extra-links a {
+            color: #D10024;
+            font-size: 13px;
+            text-decoration: none;
+        }
+
+        .extra-links a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Admin Giriş</h2>
+
+        <div class="input-group">
+            <label for="email">E-Posta</label>
+            <input type="email" id="email" placeholder="example@mail.com">
+        </div>
+
+        <div class="input-group">
+            <label for="password">Şifre</label>
+            <input type="password" id="password" placeholder="••••••••">
+        </div>
+
+        <div class="extra-links">
+            <button>
+            <a href="admin.html">Giriş Yap!</a>
+            </button>
+        </div>
+
+        <div class="extra-links">
+            <a href="#">Şifremi Unuttum</a>
+        </div>
+    </div>
+
+</body>
+</html>

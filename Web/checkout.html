@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Bestsupplements</title>
+
+ 		<!-- Google font -->
+ 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+ 		<!-- Bootstrap -->
+ 		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+ 		<!-- Slick -->
+ 		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+ 		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+ 		<!-- nouislider -->
+ 		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+ 		<!-- Font Awesome Icon -->
+ 		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+ 		<!-- Custom stlylesheet -->
+ 		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+		<!-- HEADER -->
+		<header>
+			<!-- TOP HEADER -->
+			<div id="top-header">
+				<div class="container">
+					<ul class="header-links pull-left">
+						<li><a href="#"><i class="fa fa-phone"></i> 0541 041 4141</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"></i> bestsupplements@info.com</a></li>
+						<li><a href="#"><i class="fa fa-map-marker"></i> İzmit</a></li>
+					</ul>
+					<ul class="header-links pull-right">
+
+						<li><a href="login.html"><i class="fa fa-user-o"></i> Hesabım</main></a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /TOP HEADER -->
+
+			<!-- MAIN HEADER -->
+			<div id="header">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<!-- LOGO -->
+						<div class="col-md-3">
+							<div class="header-logo">
+								<a href="index.html" class="logo">
+									<img src="./img/logo.png" alt=""width="250">
+								</a>
+							</div>
+						</div>
+						<!-- /LOGO -->
+
+						<!-- SEARCH BAR -->
+						<div class="col-md-6">
+							<div class="header-search">
+								<form>
+									<select class="input-select">
+										<option value="0">Bütün Ürünler</option>
+										<option value="1">Vitaminler</option>
+										<option value="1">Protein Tozları</option>
+										<option value="1">Kreatinler</option>
+									</select>
+									<input class="input" placeholder="Arama Yapın">
+									<button class="search-btn">Ara</button>
+								</form>
+							</div>
+						</div>
+						<!-- /SEARCH BAR -->
+
+						<!-- ACCOUNT -->
+						<div class="col-md-3 clearfix">
+							<div class="header-ctn">
+								<!-- Wishlist -->
+								<div>
+									<a href="#">
+										<i class="fa fa-heart-o"></i>
+										<span>İstek Listem</span>
+										<div class="qty">2</div>
+									</a>
+								</div>
+								<!-- /Wishlist -->
+
+								<!-- Cart -->
+								<div class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+										<i class="fa fa-shopping-cart"></i>
+										<span>Sepetim</span>
+										<div class="qty">2</div>
+									</a>
+									<div class="cart-dropdown">
+										<div class="cart-list">
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/Protein tozu1.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">Protein Tozu 1</a></h3>
+													<h4 class="product-price"><span class="qty">1x</span>980.00 TL</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+
+											<div class="product-widget">
+												<div class="product-img">
+													<img src="./img/d vitamini1.png" alt="">
+												</div>
+												<div class="product-body">
+													<h3 class="product-name"><a href="#">D Vitamini</a></h3>
+													<h4 class="product-price"><span class="qty">3x</span>200 TL</h4>
+												</div>
+												<button class="delete"><i class="fa fa-close"></i></button>
+											</div>
+										</div>
+										<div class="cart-summary">
+											<small>2 Ürün Seçili</small>
+											<h5>Toplam: 1180 TL</h5>
+										</div>
+										<div class="cart-btns">
+											<a href="#">Sepetim</a>
+											<a href="checkout.html">Ödeme Yap!  <i class="fa fa-arrow-circle-right"></i></a>
+										</div>
+									</div>
+								</div>
+								<!-- /Cart -->
+
+								<!-- Menu Toogle -->
+								<div class="menu-toggle">
+									<a href="#">
+										<i class="fa fa-bars"></i>
+										<span>Menu</span>
+									</a>
+								</div>
+								<!-- /Menu Toogle -->
+							</div>
+						</div>
+						<!-- /ACCOUNT -->
+					</div>
+					<!-- row -->
+				</div>
+				<!-- container -->
+			</div>
+			<!-- /MAIN HEADER -->
+		</header>
+		<!-- /HEADER -->
+
+		<!-- NAVIGATION -->
+		<nav id="navigation">
+			<!-- container -->
+			<div class="container">
+				<!-- responsive-nav -->
+				<div id="responsive-nav">
+					<!-- NAV -->
+					<ul class="main-nav nav navbar-nav">
+						<li class="active"><a href="index.html">Ana Sayfa</a></li>
+						<li><a href="store.html">Şok İndirimler</a></li>
+						<li><a href="#">Protein Tozları</a></li>
+						<li><a href="#">Vitaminler</a></li>
+						<li><a href="#">Amino Asitler</a></li>
+					</ul>
+					<!-- /NAV -->
+				</div>
+				<!-- /responsive-nav -->
+			</div>
+			<!-- /container -->
+		</nav>
+		<!-- /NAVIGATION -->
+
+		<!-- BREADCRUMB -->
+		<div id="breadcrumb" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="breadcrumb-header">Ödeme</h3>
+						<ul class="breadcrumb-tree">
+							<li><a href="index.html">Ana Sayfa</a></li>
+							<li class="active">Ödeme</li>
+						</ul>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /BREADCRUMB -->
+
+		<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-7">
+						<!-- Billing Details -->
+						<div class="billing-details">
+							<div class="section-title">
+								<h3 class="title">Kargo Adresi</h3>
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="first-name" placeholder="Adınız">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="last-name" placeholder="Soyadınız">
+							</div>
+							<div class="form-group">
+								<input class="input" type="email" name="email" placeholder="Mail Adresiniz">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="address" placeholder="Ev Adresiniz">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="city" placeholder="Şehir">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="country" placeholder="Ülke">
+							</div>
+							<div class="form-group">
+								<input class="input" type="text" name="zip-code" placeholder="Posta Kodu">
+							</div>
+							<div class="form-group">
+								<input class="input" type="tel" name="tel" placeholder="Telefon Numarasıs">
+							</div>
+							
+						</div>
+						<!-- /Billing Details -->
+
+						<!-- Shiping Details -->
+						<div class="shiping-details">
+							<div class="section-title">
+								<h3 class="title">Fatura Adresi</h3>
+							</div>
+							<div class="input-checkbox">
+								<input type="checkbox" id="shiping-address">
+								<label for="shiping-address">
+									<span></span>
+									Kargo Adresim Fatura Adresimle Farklı
+								</label>
+								<div class="caption">
+									<div class="form-group">
+										<input class="input" type="text" name="first-name" placeholder="Adınız">
+									</div>
+									<div class="form-group">
+										<input class="input" type="text" name="last-name" placeholder="Soyadınız">
+									</div>
+									<div class="form-group">
+										<input class="input" type="email" name="email" placeholder="Mail Adresiniz">
+									</div>
+									<div class="form-group">
+										<input class="input" type="text" name="address" placeholder="İş Yeri Adresiniz">
+									</div>
+									<div class="form-group">
+										<input class="input" type="text" name="city" placeholder="Şehir">
+									</div>
+									<div class="form-group">
+										<input class="input" type="text" name="country" placeholder="Ülke">
+									</div>
+									<div class="form-group">
+										<input class="input" type="text" name="zip-code" placeholder="Posta Kodu">
+									</div>
+									<div class="form-group">
+										<input class="input" type="tel" name="tel" placeholder="Telefon Numaranız">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /Shiping Details -->
+
+						<!-- Order notes -->
+						<div class="order-notes">
+							<textarea class="input" placeholder="Not"></textarea>
+						</div>
+						<!-- /Order notes -->
+					</div>
+
+					<!-- Order Details -->
+					<div class="col-md-5 order-details">
+						<div class="section-title text-center">
+							<h3 class="title">Siparişiniz</h3>
+						</div>
+						<div class="order-summary">
+							<div class="order-col">
+								<div><strong>Ürün</strong></div>
+								<div><strong>Toplam</strong></div>
+							</div>
+							<div class="order-products">
+								<div class="order-col">
+									<div>1X Özel Seri Protein Tozu</div>
+									<div>980.00 TL
+									</div>
+								</div>
+								<div class="order-col">
+									<div>1X D Vitamini</div>
+									<div>200.00 TL</div>
+								</div>
+							</div>
+							<div class="order-col">
+								<div>Kargo</div>
+								<div><strong>Bedava</strong></div>
+							</div>
+							<div class="order-col">
+								<div><strong>TOPLAM</strong></div>
+								<div><strong class="order-total">1180.00 TL</strong></div>
+							</div>
+						</div>
+						<div class="payment-method">
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-1">
+								<label for="payment-1">
+									<span></span>
+									Bankaya Havale
+								</label>
+								<div class="caption">
+									<p>İban.</p>
+								</div>
+							</div>
+							
+							<div class="input-radio">
+								<input type="radio" name="payment" id="payment-3">
+								<label for="payment-3">
+									<span></span>
+									Kredi Kartı
+								</label>
+								<div class="caption">
+									<p>Ödemeyi tamamla dediğiniz anda kart bilgilerinizi girmeniz için yeni bir sayfaya aktarılacaksınız.</p>
+								</div>
+							</div>
+						</div>
+						<div class="input-checkbox">
+							<input type="checkbox" id="terms">
+							<label for="terms">
+								<span></span>
+								Şartlar ve koşulları okudum ve kabul ediyorum <a href="#"></a>
+							</label>
+						</div>
+						<a href="#" class="primary-btn order-submit">Sipariş Ver!</a>
+					</div>
+					<!-- /Order Details -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+
+		<!-- NEWSLETTER -->
+		<div id="newsletter" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-12">
+						<div class="newsletter">
+							<p>İndirimlerden <strong>Haberin Olsun
+							</strong></p>
+							<form>
+								<input class="input" type="email" placeholder="Mail Adresiniz">
+								<button class="newsletter-btn"><i class="fa fa-envelope"></i> Kayıt Ol!</button>
+							</form>
+							<ul class="newsletter-follow">
+								<li>
+									<a href="#"><i class="fa fa-facebook"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-instagram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-pinterest"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /NEWSLETTER -->
+
+		<!-- FOOTER -->
+		<footer id="footer">
+			<!-- top footer -->
+			<div class="section">
+				<!-- container -->
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Hakkımızda</h3>
+								<p>Daha sağlıklı ve enerjik bir hayatı desteklemek için buradayız. Sadece en iyisine inanıyoruz.</p>
+								<ul class="footer-links">
+									<li><a href="#"><i class="fa fa-map-marker"></i>İzmit</a></li>
+					
+								</ul>
+
+								<!-- Google Haritalar Konumumuz -->
+
+								<div style="width:100%; max-width:400px; height:250px; margin-top:15px;">
+
+									<iframe
+
+									src="https://www.google.com/maps?q=40.7650,29.9400&z=15&output=embed"
+
+									width="100%" height="100%" frameborder="0" style="border:0;"
+
+									allowfullscreen="" aria-hidden="false" tabindex="0">
+
+								</iframe>
+
+							</div>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Kategoriler</h3>
+								<ul class="footer-links">
+									<li><a href="#">İndirim</a></li>
+									<li><a href="#">Protein Tozu</a></li>
+									<li><a href="#">Vitaminler</a></li>
+									<li><a href="#">Amino Asitler</a></li>
+									<li><a href="#">Sporcu Gıdaları</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="clearfix visible-xs"></div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Bilgilerimiz</h3>
+								<ul class="footer-links">
+									<li><a href="#">Hakkımızda</a></li>
+									<li><a href="#">Bize Ulaşın</a></li>
+									<li><a href="#">Gizlilik Sözleşmemiz</a></li>
+									<li><a href="#">Sipariş Ve İadeler</a></li>
+									<li><a href="#">Şartlar ve Koşullar</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="col-md-3 col-xs-6">
+							<div class="footer">
+								<h3 class="footer-title">Servisler</h3>
+								<ul class="footer-links">
+									<li><a href="#">Hesabım</a></li>
+									<li><a href="#">Sepetimi Görüntüle</a></li>
+									<li><a href="#">İstek Listem</a></li>
+									<li><a href="#">Siparişim Nerede</a></li>
+									<li><a href="#">Destek</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /top footer -->
+
+			<!-- bottom footer -->
+			<div id="bottom-footer" class="section">
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<ul class="footer-payments">
+								<li><a href="#"><i class="fa fa-cc-visa"></i></a></li>
+								<li><a href="#"><i class="fa fa-credit-card"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-paypal"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-mastercard"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-discover"></i></a></li>
+								<li><a href="#"><i class="fa fa-cc-amex"></i></a></li>
+							</ul>
+							<span class="copyright">
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</span>
+						</div>
+					</div>
+						<!-- /row -->
+				</div>
+				<!-- /container -->
+			</div>
+			<!-- /bottom footer -->
+		</footer>
+		<!-- /FOOTER -->
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+</html>
