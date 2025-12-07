@@ -181,8 +181,11 @@ bestsupplements/
 - Ürünler
 - Müşteriler
 - Analizler
+
 - Ayarlar
 
+![IMG-20251207-WA0009](https://github.com/user-attachments/assets/ea07f633-036a-4ac8-8735-808c3a4f8985)
 
-<img width="1862" height="921" alt="image" src="https://github.com/user-attachments/assets/375b987e-c6eb-40fd-9dbb-83c6fabbb6a9" />
+![IMG-20251207-WA0008](https://github.com/user-attachments/assets/963c23e3-682f-44a2-a645-77bb3a7b4633)
+
 <img width="1858" height="909" alt="image" src="https://github.com/user-attachments/assets/6b3a4f1d-1df0-4716-a75f-dbf5a9130264" />
